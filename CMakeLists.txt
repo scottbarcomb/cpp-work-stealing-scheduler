@@ -13,7 +13,7 @@ project ("cpp-work-stealing-scheduler")
 
 # Add source to this project's executable.
 add_executable (scheduler_tests "tests/basic_submit.cpp")
-add_executable (scheduler_benchmarks "benchmarks/benchmark_main.cpp" "benchmarks/workloads/task_overhead.cpp")
+add_executable (scheduler_benchmarks "benchmarks/benchmark_main.cpp" "benchmarks/workloads/task_overhead.cpp" "benchmarks/workloads/monte_carlo_pi.cpp")
 
 # TODO: Add tests and install targets if needed.
 
